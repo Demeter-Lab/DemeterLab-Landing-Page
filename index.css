@@ -47,3 +47,8 @@ header .container ul li button {
     line-height: 1.5;
     letter-spacing: 1px;
 }
+
+/* Contact Us Page */
+.form form {
+    padding: 20px;
+}
