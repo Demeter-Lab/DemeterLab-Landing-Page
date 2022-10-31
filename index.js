@@ -1,5 +1,7 @@
 //get the form with ID
 
+const { response } = require("express");
+
 if (typeof window !== 'undefined') {
     //here `window` is available, so `window.document` (or simply `document`) is available too
     const form = document.getElementById("contactForm");
@@ -20,5 +22,5 @@ const sendMail = (mail) => {
         return response.json();
     });
 };
-}
 
+}
